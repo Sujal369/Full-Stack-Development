@@ -1,124 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Form</title>
-        <style>
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-                background-color: #f0f0f0;
-            }
-
-            form {
-                width: 400px;
-                background-color: #fff;
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 0 10px
-                    rgba(0, 0, 0, 0.1);
-            }
-
-            fieldset {
-                border: 1px solid black;
-                padding: 10px;
-                margin: 0;
-            }
-
-            legend {
-                font-weight: bold;
-                margin-bottom: 10px;
-            }
-
-            label {
-                display: block;
-                margin-bottom: 5px;
-            }
-
-            input[type="text"],
-            input[type="email"],
-            input[type="password"],
-            textarea,
-            input[type="date"] {
-                width: calc(100% - 20px);
-                padding: 8px;
-                margin-bottom: 10px;
-                box-sizing: border-box;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-            }
-
-            input[type="radio"] {
-                margin-left: 20px;
-            }
-
-            input[type="submit"] {
-                padding: 10px 20px;
-
-                border-radius: 5px;
-                cursor: pointer;
-            }
-        </style>
-    </head>
-    <body>
-        <form>
-            <fieldset>
-                <legend>
-                    User personal information
-                </legend>
-                <label
-                    >Enter your full name</label
-                >
-                <input type="text" name="name" />
-                <label>Enter your email</label>
-                <input
-                    type="email"
-                    name="email"
-                />
-                <label>Enter your password</label>
-                <input
-                    type="password"
-                    name="pass"
-                />
-                <label
-                    >Confirm your password</label
-                >
-                <input
-                    type="password"
-                    name="confirmPass"
-                />
-                <label>Enter your gender</label>
-                <input
-                    type="radio"
-                    name="gender"
-                    value="male"
-                />Male
-                <input
-                    type="radio"
-                    name="gender"
-                    value="female"
-                />Female
-                <input
-                    type="radio"
-                    name="gender"
-                    value="others"
-                />Others
-                <label
-                    >Enter your Date of
-                    Birth</label
-                >
-                <input type="date" name="dob" />
-                <label>Enter your Address:</label>
-                <textarea
-                    name="address"
-                ></textarea>
-                <input
-                    type="submit"
-                    value="submit"
-                />
-            </fieldset>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+<!-- this is comment -->
+<body>
+    <header>
+        <pre>
+        <h2>Education   Experience</h2>
+        </pre>
+    </header>
+    <main>
+        <form action="/action.php">
+            <input type="text" placeholder="enter username">
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <label for="101">
+            <input type="radio" value="Class 11th" name="class" id="101">Class 11th
+            </label>
+            <br>
+            <label for="102">
+            <input type="radio" value="Class 12th" name="class" id="102">Class 12th
+            </label>
+            <br>
+            <p>Select favourite subject</p>
+            <label for="id1">
+                <input type="checkbox" value="Physics marks" name="class" id="id1">Physics
+            </label>
+            <br>
+            <textarea name="Feedback" placeholder="Please give your advice"></textarea>
+            <br>
+            <h4>Select city name</h4>
+            <select name="city" id="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
         </form>
-    </body>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=NcRG_Xyi680WGe5r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <video src="/VID-20220116-WA0009.mp4" width="560" height="315" controls loop >My Video</video>
+    </main>
+    <footer>
+        <p>Contact me at sujallothe5@gmail.com</p>
+    </footer>
+</body>
 </html>
