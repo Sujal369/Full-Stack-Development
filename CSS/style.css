@@ -1,0 +1,34 @@
+h1{
+    color:purple;
+}
+#heding{
+    color: red;
+}
+p{
+    color: darkred;
+    background-color: blanchedalmond;
+    font-weight: 1000;
+    font-size: large;
+}
+button{
+    color: darkcyan;
+    background-attachment: fixed;
+    background-color: yellow;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+.myclass{
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    background-color: aqua;
+}
+#box{
+    text-decoration-line:underline;
+    background-color: yellow;
+}
+.heading{
+    color: blueviolet;
+}
